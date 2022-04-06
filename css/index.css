@@ -18,8 +18,10 @@
 
 .grid-container {
     /* Position */
-    margin: 100px;
-    padding: 5px;
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 50px auto auto;
+    padding: 40px;
 
     /* Grid */
     display: grid;
@@ -29,16 +31,16 @@
 
 .grid-item {
     /* Position */
-    text-align: center;
     padding: 20px;
 
-    /* Color */
+    /* Background */
     background: #d6d6d6;
-    color: black;
 
     /* Text */
     font-size: 30px;
+    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
 
     /* Border */
     border-color: black;
@@ -48,7 +50,7 @@
 }
 
 .grid-item:hover {
-    /* Color */
+    /* Background */
     background: #a1a1a1;
 
     /* Cursor */
