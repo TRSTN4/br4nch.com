@@ -1,0 +1,51 @@
+.header-container {
+    /* Position */
+    text-align: center;
+    margin-top: 100px;
+}
+
+.links-container {
+    /* Position */
+    text-align: center;
+    margin-top: 200px;
+    padding: 40px;
+}
+
+.grid-container {
+    /* Position */
+    margin: 100px;
+    padding: 5px;
+
+    /* Grid */
+    display: grid;
+    gap: 20px;
+
+}
+
+.grid-item {
+    /* Position */
+    text-align: center;
+    padding: 20px;
+
+    /* Color */
+    background: #d6d6d6;
+    color: black;
+
+    /* Text */
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Border */
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 4px;
+}
+
+.grid-item:hover {
+    /* Color */
+    background: #a1a1a1;
+
+    /* Cursor */
+    cursor: pointer;
+}
